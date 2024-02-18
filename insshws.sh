@@ -19,7 +19,7 @@ chmod +x /usr/local/bin/edu-proxyovpn
 
 #System Direcly dropbear Websocket-SSH Python
 
-wget -O /etc/systemd/system/edu-proxy.service https://gitlab.com/hidessh/baru/-/raw/main/websocket-python/baru/http.service && chmod +x /etc/systemd/system/edu-proxy.service
+wget -O /etc/systemd/system/edu-proxy.service https://raw.githubusercontent.com/wongedann/swapram/main/http.service && chmod +x /etc/systemd/system/edu-proxy.service
 
 #System Dropbear Websocket-SSH Python
 wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/wongedann/swapram/main/service-wsdropbear.txt && chmod +x /etc/systemd/system/ws-dropbear.service
